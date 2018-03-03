@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Subreddit" duration-ms="29021" started-at="2018-03-01T16:53:04Z" finished-at="2018-03-01T16:53:33Z">
+    <groups>
+    </groups>
+    <test name="Subreddit" duration-ms="29021" started-at="2018-03-01T16:53:04Z" finished-at="2018-03-01T16:53:33Z">
+      <class name="com.test.subreddit.Subreddit_Test">
+        <test-method status="PASS" signature="open()[pri:0, instance:com.test.subreddit.Subreddit_Test@6d00a15d]" name="open" is-config="true" duration-ms="13110" started-at="2018-03-01T16:53:04Z" finished-at="2018-03-01T16:53:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open -->
+        <test-method status="PASS" signature="SearchSubreddit()[pri:1, instance:com.test.subreddit.Subreddit_Test@6d00a15d]" name="SearchSubreddit" duration-ms="10922" started-at="2018-03-01T16:53:17Z" finished-at="2018-03-01T16:53:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchSubreddit -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.test.subreddit.Subreddit_Test@6d00a15d]" name="login" duration-ms="4442" started-at="2018-03-01T16:53:28Z" finished-at="2018-03-01T16:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="votePost()[pri:3, instance:com.test.subreddit.Subreddit_Test@6d00a15d]" name="votePost" duration-ms="181" started-at="2018-03-01T16:53:32Z" finished-at="2018-03-01T16:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- votePost -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.test.subreddit.Subreddit_Test@6d00a15d]" name="close" is-config="true" duration-ms="299" started-at="2018-03-01T16:53:32Z" finished-at="2018-03-01T16:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.test.subreddit.Subreddit_Test -->
+    </test> <!-- Subreddit -->
+  </suite> <!-- Subreddit -->
+</testng-results>
